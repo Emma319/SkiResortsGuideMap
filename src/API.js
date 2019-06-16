@@ -17,7 +17,7 @@ export function getGoogleMap() {
 
             // Load the Google Map API
             const script = document.createElement("script");
-            const API = 'AIzaSyBqGLhaozeD1dM_yjBJceWe4-Pw6DID5Qg';
+            const API = 'APIKey';
             script.src = `https://maps.googleapis.com/maps/api/js?key=${API}&callback=resolveGoogleMapPromise`;
             script.async = true;
             script.defer = true;
@@ -33,8 +33,8 @@ export function getVenues() {
         // Foursquare API parameters
         const endPoint = "https://api.foursquare.com/v2/venues/search?";
         const parameters = {
-            client_id: "JITY1KOHGHGZ4JO5OVQG5P1O4EFQEBNFW5E3OZZV1T0OOIRP",
-            client_secret: "WTMRA5V5MPGURXNIIT4WUK13FOAZJFO5V40CWB5PVTKNCOAL",
+            client_id: "FoursquareID",
+            client_secret: "FoursquareSecret",
             query: "ski resort",
             ll: "39.0925, -120.0334",
             limit: 6,
@@ -58,8 +58,8 @@ export function getVenuePhoto(VenueID) {
         // Foursquare API parameters
         const endPoint = `https://api.foursquare.com/v2/venues/${VenueID}/photos?`;
         const parameters = {
-            client_id: "JITY1KOHGHGZ4JO5OVQG5P1O4EFQEBNFW5E3OZZV1T0OOIRP",
-            client_secret: "WTMRA5V5MPGURXNIIT4WUK13FOAZJFO5V40CWB5PVTKNCOAL",
+            client_id: "FoursquareID",
+            client_secret: "FoursquareSecret",
             VENUE_ID: VenueID,
             limit: 1,
             v: "20182507"
