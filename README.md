@@ -8,6 +8,10 @@ This application shows some popular ski resorts in _**Lake Tahoe area**_.
 * Click the name on the list to see the location on the map and open its information window.
 * The content of information window shows a photo of the ski resort.
 
+#### Live Version:
+https://emma319.github.io/SkiResortsGuideMap/
+
+
 ### Get Start
 1. Clone this repo with `git` or download and extract via zip
 2. Open terminal and change directory into this project root
@@ -29,7 +33,7 @@ This application shows some popular ski resorts in _**Lake Tahoe area**_.
 7. Open http://localhost:5000 to view it in the browser.
 8. Have Fun!!
 
-## Design
+### Design
 * This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 * Dependencies and API used in this project:
     * React
