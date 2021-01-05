@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Emma319.github.io/SkiResortsGuideMap/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "escape-string-regexp": "^1.0.5",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
